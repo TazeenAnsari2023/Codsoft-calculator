@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+    font-family: "Playwrite NG Modern", cursive;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("https://img.freepik.com/free-vector/watercolor-abstract-winter-background_23-2149147676.jpg?w=1060&t=st=1719219434~exp=1719220034~hmac=4a0caeebef812bf0bbb172657cbcb96bb5a827d0e26872646f08e9cfa0b60f71") ;
+  
+
+.calculator{
+    border: 8px outset #3d5380;
+    padding: 20px;
+    border-radius: 30px;
+    background: transparent;
+    box-shadow: 80px 60px 30px rgba(113, 115, 119, 0.5);
+  
+
+}
+
+input{
+    width: 320px;
+    border: 3px outset;
+    border-color: white;
+    border-radius: 16px ;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 1px 1px 80px rgb(100, 137, 159);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #130101;
+}
+
+input::placeholder{
+    color: #0c0c0c;
+}
+
+button{
+    border: outset;
+    border-color: rgb(245, 237, 237);
+    width: 70px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 800%;
+    background-color: black;
+    color: white;
+    font-size: 23px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.equalBtn{
+    background-color: #101011;
+
+}
+
+.operator{
+    color: #88b6b9;
+}
+}
